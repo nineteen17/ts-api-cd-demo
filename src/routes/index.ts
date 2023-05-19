@@ -7,7 +7,7 @@ router.get('/', taskController.getAllTasks)
 
 router.post('/', taskController.createOneTask)
 
-router.get('/:id', taskController.getOneTask)
+router.get('/:id', taskController.getOneTask) // how to get the id from the url path  /:id1
 
 router.delete('/:id', taskController.deleteTask)
 
