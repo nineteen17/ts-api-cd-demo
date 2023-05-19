@@ -2,7 +2,7 @@ name: Build and Test
 
 on:
   push:
-    branches: [feature/*]
+    branches: feature/*
 
 jobs:
   build_test:
@@ -25,4 +25,3 @@ jobs:
 
       - name: Test
         run: npm run test
-
